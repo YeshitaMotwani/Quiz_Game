@@ -155,8 +155,8 @@ function buttonHandling() {
 function showFinalScore() {
     clearInterval(timer);
     document.body.innerHTML = `
-        <div class="final-score">
-            <h1>Quiz Finished</h1>
+        <div class="final-score"  style="color:white; text-align:center;">
+            <h1 style="color:white;">Quiz Finished</h1>
             <p>Your final score is: ${score}/${questions.length * 2}</p>
         </div>
     `;
