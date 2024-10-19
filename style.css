@@ -33,6 +33,33 @@ body {
     color: #FFD700; /* Gold color */
 }
 
+h2,h3{
+    color:white;
+}
+.details{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: #bbdd11;
+    border:3px solid whitesmoke;
+    border-radius: 4px;
+    position:relative;
+    left:680px;
+    top:100px;
+}
+
+.submit{
+    margin:20px;
+    color: #FFFFFF;
+    background-color: #FF6F61; /* Coral button */
+    border: 2px solid #37ee0e; /* Neon green */
+    border-radius: 5px;
+}
+
+.submit:hover {
+    transform: scale(1.2);
+    color: #FFD700; /* Gold color */
+}
 .timer {
     height: 50px;
     width: 50px;
@@ -159,4 +186,68 @@ body {
     align-items: center;
     align-content: center;
     margin-left: 400px;
+}
+
+.play-again{
+    color: #FFFFFF;
+    margin: 10px;
+    background-color: #FF6F61; /* Coral button */
+    border: 2px solid #37ee0e; /* Neon green */
+    border-radius: 5px;
+}
+
+.play-again:hover{
+    transform: scale(1.2);
+    color: #FFD700; /* Gold color */
+}
+
+.fa-repeat{
+    font-size: 30px;
+    position: relative;
+    top:8px;
+}
+
+.quit{
+    color: #FFFFFF;
+    margin: 10px;
+    background-color: #FF6F61; /* Coral button */
+    border: 2px solid #37ee0e; /* Neon green */
+    border-radius: 5px;
+}
+
+.fa-xmark {
+    font-size: 30px;
+    position: relative;
+    top:8px;
+}
+.quit:hover{
+    transform: scale(1.2);
+    color: #FFD700; /* Gold color */
+}
+
+.table{
+    font-size: larger;
+    font-family:Helvetica;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:650px;
+    top:150px;
+    border: 4px solid lightseagreen;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+caption{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+th{
+    color:white;
+    font-size: larger;
+    font-family: 'Arial';
 }
