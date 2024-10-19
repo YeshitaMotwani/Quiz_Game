@@ -6,3 +6,4 @@ Features include:
 - Next/Previous question navigation
 - Leaderboard displaying ranks and scores
 - "Play Again" and "Quit Quiz" options .
+
